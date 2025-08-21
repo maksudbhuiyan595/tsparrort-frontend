@@ -128,19 +128,16 @@ export default function Home() {
 
         <div className="relative min-h-[82dvh] w-full flex flex-col md:flex-row items-center justify-center px-8 md:px-[10%] overflow-hidden">
           <div className="md:hidden flex-1 flex flex-col justify-center items-start text-primary space-y-4 md:space-y-6 z-10">
-            <Button
-              variant={"link"}
-              className="text-sm md:text-sm font-medium drop-shadow-sm "
-              asChild
-            >
+
               <Link
                 href={
                   "https://www.google.com/maps/place/The+Screaming+Parrots+Cafe/@47.6743617,-122.1315355,17z/data=!3m1!4b1!4m6!3m5!1s0x549073e1f4800ddb:0x6ad332d891e1ef2c!8m2!3d47.6743582!4d-122.1266646!16s%2Fg%2F11xd3dt169?entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D"
                 }
+                className=" font-bold text-shadow-sm"
               >
                 16095 Cleveland St Ste 110, Redmond WA 98052-1565, United States
               </Link>
-            </Button>
+
           </div>
 
           <div className="flex-1 flex justify-center items-center relative z-0">
