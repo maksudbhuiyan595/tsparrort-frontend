@@ -266,7 +266,7 @@ export default function Home() {
             Discover the menu items our customers love most.
           </p>
 
-          <div className="mt-12 mx-auto max-w-6xl grid grid-cols-3 gap-6">
+          <div className="mt-12 mx-auto max-w-6xl grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {items.map((x) => (
               <Card
                 key={x.name}
