@@ -20,7 +20,7 @@ export default function Page() {
       <section className="">
         <Card>
           <CardHeader className="flex items-center justify-between border-b">
-            <CardTitle>All Users</CardTitle>
+            <CardTitle>Transaction History</CardTitle>
             <div className="flex gap-2">
               <div
                 className={cn(
@@ -35,10 +35,6 @@ export default function Page() {
                   placeholder="Search.."
                 />
               </div>
-              <Button className="py-4 text-sm!">
-                <PlusIcon />
-                Add food item
-              </Button>
             </div>
           </CardHeader>
           <CardContent>

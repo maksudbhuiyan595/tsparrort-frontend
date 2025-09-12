@@ -8,9 +8,9 @@ import {
 const ADMIN_PREFIX = "/admin"
 export const route = {
   user: {
-    name: "shadcn",
-    email: "m@example.com",
-    avatar: "/avatars/shadcn.jpg",
+    name: "Admin",
+    email: "admin@gmail.com",
+    avatar: "/image/logo.webp",
   },
   navMain: [
     {

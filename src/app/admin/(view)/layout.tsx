@@ -18,9 +18,9 @@ export default function Layout({
       }
     >
       <AppSidebar variant="sidebar" />
-      <SidebarInset className="pr-6">
+      <SidebarInset className="lg:pr-6">
         <SiteHeader />
-        <div className="flex flex-1 flex-col">{children}</div>
+        <div className="flex flex-1 flex-col w-full">{children}</div>
       </SidebarInset>
     </SidebarProvider>
   );
